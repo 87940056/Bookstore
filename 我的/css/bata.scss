@@ -1,0 +1,18 @@
+@mixin cube($size){
+  width:$size;
+  height:$size;
+}
+@mixin cfx($w,$h){
+  width:$w;
+  height:$h;
+}
+@mixin circle($size){
+  @include cube($size);
+  border-radius:50%;
+}
+@mixin bg(){
+  $r:floor(random()*256);
+  $g:floor(random()*256);
+  $b:floor(random()*256);
+  background:rgb($r,$g,$b);
+}
