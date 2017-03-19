@@ -1,0 +1,207 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start; }
+
+.header .grzx .left {
+  background-image: url("../img/20.png");
+  background-size: 0.1rem 0.17rem; }
+
+.list {
+  margin: 0.2rem auto 0; }
+  .list li .right .btn {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    cursor: pointer; }
+  .list li:nth-child(1) .left .logo {
+    background-image: url("../img/21.png"); }
+  .list li:nth-child(1) .left .bbsm span {
+    background-image: url("../img/22.png"); }
+  .list li:nth-child(2) .left .logo {
+    background-image: url("../img/23.png"); }
+  .list li:nth-child(2) .left .bbsm span {
+    background-image: url("../img/24.png"); }
+  .list li:nth-child(3) .left .logo {
+    background-image: url("../img/25.png"); }
+  .list li:nth-child(3) .left .bbsm span {
+    background-image: url("../img/26.png"); }
+  .list li:nth-child(3) .right .flag {
+    width: 0.9rem;
+    height: 0.4rem;
+    background: #3A91FD;
+    border-radius: 0.2rem;
+    margin-right: 0.2rem;
+    border: 2px solid #D9E1FF; }
+    .list li:nth-child(3) .right .flag div {
+      width: 0.3rem;
+      height: 0.3rem;
+      background: #fff;
+      border-radius: 50%;
+      border: 2px solid #81B9FE;
+      margin: 0.03rem; }
+  .list li:nth-child(4) .left .logo {
+    background-image: url("../img/27.png"); }
+  .list li:nth-child(4) .left .bbsm span {
+    background-image: url("../img/28.png"); }
+  .list li:nth-child(4) .right .qchc_btn {
+    width: 0.68rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; }
+    .list li:nth-child(4) .right .qchc_btn a {
+      display: block;
+      margin-left: 0.4rem; }
+
+.footer {
+  width: 5.66rem;
+  height: 0.69rem;
+  background: #28DD8B;
+  border-radius: 0.4rem;
+  bottom: 0.85rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .footer i {
+    color: #fff; }
+  .footer span {
+    color: #fff;
+    font-size: 0.3rem; }
+
+.mask {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .mask .setting_k {
+    width: 4.82rem;
+    height: 5.66rem;
+    background: url("../img/59.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.2rem; }
+    .mask .setting_k .top {
+      width: 100%;
+      height: 0.82rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .mask .setting_k .top .left {
+        width: 0.54rem;
+        height: 0.54rem;
+        background-image: url("../img/60.png");
+        background-size: cover;
+        background-position: center; }
+      .mask .setting_k .top .right {
+        margin-right: 0.3rem; }
+        .mask .setting_k .top .right p {
+          color: #fff; }
+      .mask .setting_k .top i {
+        display: block;
+        width: 2.58rem;
+        height: 0.11rem;
+        background-image: url("../img/61.png");
+        background-size: contain; }
+    .mask .setting_k .middle {
+      width: 80%;
+      margin: 0 auto; }
+      .mask .setting_k .middle li {
+        height: 0.83rem;
+        border-bottom: 1px dashed #999999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .mask .setting_k .middle li .left p {
+          color: #2A3441; }
+        .mask .setting_k .middle li .left i {
+          display: block;
+          width: 2.19rem;
+          height: 0.13rem;
+          background-image: url("../img/62.png");
+          background-size: cover; }
+        .mask .setting_k .middle li .right {
+          width: 0.33rem;
+          height: 0.33rem;
+          border: 1px solid #29DCBC;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+      .mask .setting_k .middle li:nth-child(4) .xz {
+        width: 0.17rem;
+        height: 0.17rem;
+        border-radius: 50%;
+        background: #28DD8B; }
+    .mask .setting_k .bottom {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 0.4rem; }
+      .mask .setting_k .bottom .left {
+        width: 1.98rem;
+        height: 0.59rem;
+        border: 1px solid #28DD8B;
+        border-radius: 0.4rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer; }
+        .mask .setting_k .bottom .left span {
+          color: #28DD8B; }
+      .mask .setting_k .bottom .right {
+        background: #28DD8B; }
+        .mask .setting_k .bottom .right span {
+          color: #fff; }
+
+.mask_ydtx {
+  visibility: hidden; }
+
+.mask_ychc {
+  visibility: hidden; }
+  .mask_ychc .setting_k .top {
+    justify-content: flex-start; }
+    .mask_ychc .setting_k .top .left {
+      background-image: url("../img/63.png");
+      margin-left: 0.3rem; }
+    .mask_ychc .setting_k .top .right i {
+      background-image: url("../img/64.png"); }
+    .mask_ychc .setting_k .top .qx {
+      width: 0.89rem;
+      height: 0.33rem;
+      display: flex;
+      justify-content: space-between; }
+      .mask_ychc .setting_k .top .qx p {
+        font-size: 12px;
+        color: #fff;
+        align-self: center; }
+      .mask_ychc .setting_k .top .qx .ld {
+        width: 0.33rem;
+        height: 0.33rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .mask_ychc .setting_k .top .qx .ld div {
+          width: 0.17rem;
+          height: 0.17rem;
+          background: #fff;
+          border-radius: 50%; }
+  .mask_ychc .setting_k .middle li .left i {
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .mask_ychc .setting_k .middle li:nth-child(1) .left i {
+    background-image: url("../img/65.png"); }
+  .mask_ychc .setting_k .middle li:nth-child(2) .left i {
+    background-image: url("../img/66.png"); }
+  .mask_ychc .setting_k .middle li:nth-child(3) .left i {
+    background-image: url("../img/67.png"); }
+  .mask_ychc .setting_k .middle li:nth-child(4) .left i {
+    background-image: url("../img/68.png"); }
