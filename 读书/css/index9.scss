@@ -88,6 +88,322 @@ body{
 		}
 	}	
 }
+.nav{
+  width: 100%;
+  height: 100vh;
+  .top{
+    width: 100%;
+    height: 1.9rem;
+    background: url("../img/pens.png") left center /0.8rem 0.8rem no-repeat;
+    .right{
+      width: 6.4rem;
+      height: 100%;
+      float: left;
+      padding-left: 1.05rem;
+      h1{
+        padding-top: 0.13rem;
+        line-height: 0.24rem;
+        font-size: 0.24rem;
+        color: #151c2b;
+        font-weight: 200;
+      }
+      h3{
+        padding-top: 0.1rem;
+        color: #666666;
+        font-size: 0.16rem;
+        line-height: 0.16rem;
+      }
+      .fang{
+        width: 5.31rem;
+        height: 0.85rem;
+        background: #9AE1FF;
+        border-radius: 0.08rem;
+        border: 0.02rem solid #E9E9E9;
+        margin-top: 0.09rem;
+        position: relative;
+        display: flex;
+        .qq{
+          width: 0.06rem;
+          height: 0.06rem;
+          border-radius: 50%;
+          background: #fff;
+        }
+        .yuan1{
+          position: absolute;
+          top: 0.08rem;
+          left: 0.08rem;
+        }
+        .yuan2{
+          position: absolute;
+          bottom: 0.08rem;
+          left: 0.08rem;
+        }
+        .yuan3{
+          position: absolute;
+          bottom: 0.08rem;
+          right: 0.08rem;
+        }
+        .yuan4{
+          position: absolute;
+          top: 0.08rem;
+          right: 0.08rem;
+        }
+        .lf{
+          width: 0.45rem;
+          height: 100%;
+          float: left;
+          margin-right: 0.1rem;
+          img{
+            width: 0.21rem;
+            height: 0.21rem;
+            float: right;
+            margin-top: 0.2rem;
+          }
+        }
+        .rg{
+          float: left;
+          line-height: 0.3rem;
+          align-self: center;
+          p{
+            color: #e23d60;
+            font-size: 0.2rem;
+          }
+        }
+      }
+      .tu{
+        display: flex;
+        margin-top: 0.02rem;
+        .x1{
+          width: 0.17rem;
+          height: 0.17rem;
+          align-self: center;
+          margin-right: 0.1rem;
+        }
+        .x2{
+          width: 0.25rem;
+          height: 0.14rem;
+          align-self: center;
+          margin-right: 0.1rem;
+        }
+        span{
+          align-self: center;
+          margin-right: 0.1rem;
+        }
+      }
+    }
+  }
+  .min{
+    width: 100%;
+    height: 1.87rem;
+    border-top: 0.01rem solid #29DCBC;
+    border-bottom: 0.02rem solid #29DCBC;
+    position: relative;
+    .pic{
+      position: absolute;
+      right: 0.35rem;
+      top: 0.8rem;
+      width: 0.31rem;
+      height: 0.31rem;
+      background: url("../img/xx.png");
+      background-size: cover;
+    }
+    .right{
+      padding-left: 0.5rem;
+      width: 6rem;
+      height: 100%;
+      float: left;
+      background: #29DCBC;
+      .yuan{
+        width: 0.09rem;
+        height: 0.09rem;
+        background: #29DCBC;
+        border-radius: 50%;
+        position: absolute;
+      }
+      .y1{
+        top: 0;
+        right: 1.45rem;
+      }
+      .y2{
+        top: 0.11rem;
+        right: 1.45rem;
+      }
+      .y3{
+        top: 0.22rem;
+        right: 1.45rem;
+      }
+      .y4{
+        top: 0.33rem;
+        right: 1.45rem;
+      }
+      .y5{
+        top: 0.44rem;
+        right: 1.45rem;
+      }
+      .y6{
+        top: 0.55rem;
+        right: 1.45rem;
+      }
+      .y7{
+        top: 0.66rem;
+        right: 1.45rem;
+      }
+      h1{
+        padding-top: 0.13rem;
+        line-height: 0.24rem;
+        font-size: 0.24rem;
+        color: #fff;
+      }
+      h3{
+        padding-top: 0.1rem;
+        color: #fff;
+        font-size: 0.16rem;
+        line-height: 0.16rem;
+      }
+      .fang{
+        width: 5.31rem;
+        height: 0.85rem;
+        margin-top: 0.09rem;
+        .qq{
+          width: 0.06rem;
+          height: 0.06rem;
+          border-radius: 50%;
+          background: #fff;
+        }
+        .lf{
+          width: 0.45rem;
+          height: 100%;
+          float: left;
+          margin-right: 0.1rem;
+          img{
+            width: 0.21rem;
+            height: 0.21rem;
+            float: right;
+            margin-top: 0.2rem;
+          }
+        }
+        .rg{
+          float: left;
+          line-height: 0.3rem;
+          p{
+            color: #1d9563;
+            font-size: 0.2rem;
+          }
+          .tmg{
+            padding-top: 0.12rem;
+          }
+        }
+      }
+      .tu{
+        margin-top: 0.1rem;
+        span{
+          color: #fff;
+        }
+      }
+    }
+  }
+  .bot{
+    width: 100%;
+    height: 1.9rem;
+    background: url("../img/pens.png") left center /0.8rem 0.8rem no-repeat;
+    border-bottom: 0.03rem dotted #999999;
+    .right{
+      width: 6.4rem;
+      height: 100%;
+      float: left;
+      padding-left: 1.05rem;
+      h1{
+        padding-top: 0.13rem;
+        line-height: 0.24rem;
+        font-size: 0.24rem;
+        color: #151c2b;
+      }
+      h3{
+        padding-top: 0.1rem;
+        color: #666666;
+        font-size: 0.16rem;
+        line-height: 0.16rem;
+      }
+      .fang{
+        width: 5.31rem;
+        height: 0.85rem;
+        background: #9AE1FF;
+        border-radius: 0.08rem;
+        border: 0.02rem solid #E9E9E9;
+        margin-top: 0.09rem;
+        position: relative;
+        display: flex;
+        .qq{
+          width: 0.06rem;
+          height: 0.06rem;
+          border-radius: 50%;
+          background: #fff;
+        }
+        .yuan1{
+          position: absolute;
+          top: 0.08rem;
+          left: 0.08rem;
+        }
+        .yuan2{
+          position: absolute;
+          bottom: 0.08rem;
+          left: 0.08rem;
+        }
+        .yuan3{
+          position: absolute;
+          bottom: 0.08rem;
+          right: 0.08rem;
+        }
+        .yuan4{
+          position: absolute;
+          top: 0.08rem;
+          right: 0.08rem;
+        }
+        .lf{
+          width: 0.45rem;
+          height: 100%;
+          float: left;
+          margin-right: 0.1rem;
+          img{
+            width: 0.21rem;
+            height: 0.21rem;
+            float: right;
+            margin-top: 0.2rem;
+          }
+        }
+        .rg{
+          float: left;
+          line-height: 0.3rem;
+          align-self: center;
+          p{
+            color: #e23d60;
+            font-size: 0.2rem;
+          }
+        }
+      }
+      .tu{
+        display: flex;
+        margin-top: 0.02rem;
+        .x1{
+          width: 0.17rem;
+          height: 0.17rem;
+          align-self: center;
+          margin-right: 0.1rem;
+        }
+        .x2{
+          width: 0.25rem;
+          height: 0.14rem;
+          align-self: center;
+          margin-right: 0.1rem;
+        }
+        span{
+          align-self: center;
+          margin-right: 0.1rem;
+        }
+      }
+    }
+  }
+}
 .foot{
 	width: 100%;
 	height: 1.25rem;
@@ -98,6 +414,7 @@ body{
 	p{
 		width: 1.5rem;
 		height: .49rem;
+		font-size: .2rem;
 		background: url(../img/sd.png)no-repeat center center;
 		background-size: cover;
 		text-align: center;
