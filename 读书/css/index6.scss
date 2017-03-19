@@ -1,0 +1,143 @@
+@import "mixin";
+@import url(base.css);
+$device: 320px,360px,375px,414px,750px;
+html{
+	@each $i in $device{
+		@media screen and(min-width: #{$i}){
+			font-size: 100*($i/750);
+		}
+	}
+}
+body{
+	font-size: 16px;
+}
+.header{
+	width: 100%;
+	height: 1.4rem;
+	display: flex;
+	background: #29a6dc;
+	flex-direction:column;
+	justify-content: center;
+	.top{
+		width: 7.03rem;
+		height: .2rem;
+		margin: 0 auto;
+		background: url(../img/top.png)no-repeat center center;
+		background-size: cover;
+	}
+	.main{
+		width: 4.34rem;
+		padding-left: .24rem;
+		height: 0.81rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	.left{
+		width: .46rem;
+		height: .46rem;
+		border-radius: 50%;
+		background: #fff url(../img/left.png) no-repeat center center/.1rem .17rem;
+		align-self: center;
+	}
+	.right{
+		width: 1.5rem;
+		height: .71rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+	}
+	p{
+		font-size: .3rem;
+		width: 1.5rem;
+		height: .5rem;
+		line-height: .5rem;
+		background: url(../img/h1.png)no-repeat bottom center/.35rem .04rem;
+	}
+}
+.content{
+	width: 100%;
+	height: 7.67rem;
+	display: flex;
+	justify-content: center;
+	.main{
+		width: 7.04rem;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.top{
+		width: 2.75rem;
+		height: .56rem;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;		
+		.rili{
+			width: .3rem;
+			height: .3rem;
+			background: url(../img/rili.png)no-repeat center center;
+			background-size: cover;
+		}
+		span{
+			font-size: .20rem;
+			font-weight: 100;
+		}
+	}
+	.center3{
+		width: 7.04rem;
+		height: .03rem;
+		background: url(../img/biaoxian.png) no-repeat top center;
+		background-size: cover;
+	}
+	.center1{
+		width: 100%;
+		height: 3.26rem;
+		border: 1px solid #000;
+		border-radius: 5px;
+		display: flex;
+		justify-content: center;
+	}
+	p{
+		width: 90%;
+		font-size: .24rem;
+		font-weight: 400;
+	}
+	.center2{
+		margin-top: .3rem;
+		width: 100%;
+		height: .98rem;
+		border: 1px solid #000;
+		border-radius: 5px;
+		display: flex;
+		justify-content: center;
+	}
+	.bottom{
+		width: 100%;
+		height: 1.6rem;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		text-align: center;
+		.left{
+			width: 1.72rem;
+			height: .65rem;
+			background: url(../img/qa.png)no-repeat center center/1.69rem .61rem;
+			/*background-size: cover;*/
+			line-height: .65rem;
+		}
+		.right{
+			width: 1.72rem;
+			height: .65rem;
+			line-height: .65rem;
+			background: url(../img/qb.png)no-repeat center center/1.69rem .61rem;
+			/*background-size: cover;*/
+		}
+	}
+}
+.foot{
+	width: 100%;
+	height: 4.29rem;
+	background: url(../img/jianpan.png)no-repeat center center;
+	background-size: cover;
+}

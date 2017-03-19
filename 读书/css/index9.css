@@ -1,0 +1,128 @@
+@import url(base.css);
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+body {
+  font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px; }
+
+.header {
+  width: 100%;
+  height: 1.4rem;
+  display: flex;
+  background: #29a6dc;
+  flex-direction: column;
+  justify-content: center; }
+  .header .top {
+    width: 7.03rem;
+    height: .2rem;
+    margin: 0 auto;
+    background: url(../img/top.png) no-repeat center center;
+    background-size: cover; }
+  .header .main {
+    width: 93.6%;
+    margin: 0 auto;
+    height: 0.99rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; }
+  .header .left {
+    width: .66rem;
+    height: .82rem;
+    display: flex;
+    align-items: center; }
+    .header .left .pop {
+      width: .46rem;
+      height: .46rem;
+      border-radius: 50%;
+      background: #fff url(../img/left.png) no-repeat center center/0.1rem 0.17rem; }
+  .header .right {
+    width: 5.73rem;
+    height: .82rem;
+    display: flex;
+    border-radius: .4rem;
+    background: #2a3441;
+    justify-content: space-around;
+    align-items: center; }
+    .header .right div {
+      width: 1.63rem;
+      height: .7rem;
+      border-radius: .4rem;
+      text-align: center; }
+      .header .right div h1 {
+        font-size: .22rem;
+        font-weight: 300;
+        height: .5rem;
+        line-height: .6rem;
+        color: #fff; }
+      .header .right div p {
+        font-size: .12rem;
+        line-height: 0rem;
+        color: #fff; }
+    .header .right .R {
+      border: 2px solid #fff;
+      background: #29a6dc;
+      /*background:url(../img/qwe.png)no-repeat center center;
+			background-size: cover;*/ }
+    .header .right span {
+      height: .7rem;
+      width: .02rem;
+      background: url(../img/shu.png) no-repeat center center;
+      background-size: cover; }
+
+.foot {
+  width: 100%;
+  height: 1.25rem;
+  background: #151c2b;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .foot p {
+    width: 1.5rem;
+    height: .49rem;
+    background: url(../img/sd.png) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    line-height: .49rem; }
