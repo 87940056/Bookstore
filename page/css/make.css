@@ -1,0 +1,311 @@
+@charset "UTF-8";
+@import url(bass.css);
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 350px) {
+  html {
+    font-size: 46.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+body {
+  font-size: 16px; }
+
+body {
+  font-family: "宋体",sans-serif; }
+
+.status {
+  width: 100%;
+  height: 0.4rem;
+  background: #29A6DC; }
+
+.header {
+  width: 100%;
+  height: .88rem;
+  background: #29A6DC; }
+  .header .center {
+    width: 93.6%;
+    height: .88rem;
+    margin: 0 auto;
+    text-align: center; }
+    .header .center .btn {
+      float: left;
+      width: .48rem;
+      height: .48rem;
+      background: url("../img/btn.png") center;
+      background-size: cover;
+      margin-top: 0.2rem; }
+    .header .center .zi {
+      width: 3rem;
+      height: 100%;
+      margin: 0 auto; }
+      .header .center .zi .p1 {
+        color: #fff;
+        font-size: 0.36rem; }
+      .header .center .zi .p2 {
+        margin: 0 auto;
+        width: 0.34rem;
+        height: 0.03rem;
+        background: url("../img/heng.png") 0.34rem 0.03rem;
+        background-size: cover; }
+      .header .center .zi .p3 {
+        color: #a3e3ff;
+        font-size: 0.18rem; }
+
+.nav {
+  width: 100%;
+  height: 100%; }
+  .nav .center {
+    width: 100%;
+    height: 1.22rem; }
+    .nav .center .last {
+      width: 6.91rem;
+      height: 1.22rem;
+      float: left; }
+      .nav .center .last .left {
+        width: 1rem;
+        height: 100%;
+        float: left; }
+        .nav .center .last .left .tu {
+          width: 0.8rem;
+          height: 0.8rem;
+          background: url("../img/ru.png");
+          background-size: cover;
+          margin-top: 0.16rem; }
+      .nav .center .last .right {
+        width: 5.57rem;
+        height: 100%;
+        float: left; }
+        .nav .center .last .right .topp {
+          width: 100%;
+          height: 0.5rem;
+          float: left;
+          display: flex; }
+          .nav .center .last .right .topp h1 {
+            align-self: center;
+            color: #151c2b;
+            font-size: 0.24rem;
+            margin-top: 0.2rem;
+            line-height: 0.3rem;
+            padding-bottom: 0.1rem; }
+        .nav .center .last .right .min {
+          width: 100%;
+          height: 0.4rem;
+          float: left;
+          display: flex; }
+          .nav .center .last .right .min span {
+            align-self: center;
+            color: #505050;
+            font-size: 0.18rem; }
+        .nav .center .last .right .bot {
+          width: 5.2rem;
+          height: 0.4rem;
+          float: left;
+          display: flex; }
+          .nav .center .last .right .bot .b_l {
+            align-self: center;
+            width: 2.6rem;
+            height: 0.55rem;
+            float: left;
+            display: flex; }
+            .nav .center .last .right .bot .b_l img {
+              align-self: center;
+              width: 0.17rem;
+              height: 0.16rem; }
+            .nav .center .last .right .bot .b_l span {
+              color: #999;
+              font-size: 0.16rem;
+              align-self: center;
+              padding-left: 0.1rem; }
+          .nav .center .last .right .bot .b_r {
+            align-self: center;
+            width: 2.6rem;
+            height: 0.55rem;
+            float: right;
+            display: flex;
+            justify-content: flex-end; }
+            .nav .center .last .right .bot .b_r img {
+              align-self: center;
+              width: 0.25rem;
+              height: 0.14rem; }
+            .nav .center .last .right .bot .b_r span {
+              color: #999;
+              font-size: 0.16rem;
+              align-self: center;
+              padding-left: 0.1rem; }
+  .nav .center2 {
+    width: 100%;
+    height: 1.19rem;
+    border-bottom: 0.02rem solid #29DCBC;
+    border-top: 0.01rem solid #29DCBC; }
+    .nav .center2 .last {
+      width: 7.15rem;
+      height: 1.22rem;
+      margin-left: 0.02rem;
+      float: left;
+      background: url("../img/xx.png") right center/0.31rem 0.31rem no-repeat; }
+      .nav .center2 .last .lv {
+        width: 0.1rem;
+        height: 0.1rem;
+        background: #29DCBC;
+        margin-left: 6.5rem;
+        border-radius: 50%;
+        margin-top: 0.04rem; }
+      .nav .center2 .last .right {
+        background: #29DCBC;
+        padding-left: 0.45rem;
+        width: 6.1rem;
+        height: 100%;
+        float: left; }
+        .nav .center2 .last .right .topp {
+          width: 100%;
+          height: 0.5rem;
+          float: left;
+          display: flex; }
+          .nav .center2 .last .right .topp h1 {
+            align-self: center;
+            color: #fff;
+            font-size: 0.24rem;
+            margin-top: 0.2rem;
+            line-height: 0.3rem;
+            padding-bottom: 0.1rem; }
+        .nav .center2 .last .right .min {
+          width: 100%;
+          height: 0.4rem;
+          float: left;
+          display: flex; }
+          .nav .center2 .last .right .min span {
+            align-self: center;
+            color: #fff;
+            font-size: 0.18rem; }
+        .nav .center2 .last .right .bot {
+          width: 5.2rem;
+          height: 0.4rem;
+          float: left;
+          display: flex; }
+          .nav .center2 .last .right .bot .b_l {
+            align-self: center;
+            width: 2.6rem;
+            height: 0.55rem;
+            float: left;
+            display: flex; }
+            .nav .center2 .last .right .bot .b_l img {
+              align-self: center;
+              width: 0.17rem;
+              height: 0.16rem; }
+            .nav .center2 .last .right .bot .b_l span {
+              color: #fff;
+              font-size: 0.16rem;
+              align-self: center;
+              padding-left: 0.1rem; }
+          .nav .center2 .last .right .bot .b_r {
+            align-self: center;
+            width: 2.6rem;
+            height: 0.55rem;
+            float: right;
+            display: flex;
+            justify-content: flex-end; }
+            .nav .center2 .last .right .bot .b_r img {
+              align-self: center;
+              width: 0.25rem;
+              height: 0.14rem; }
+            .nav .center2 .last .right .bot .b_r span {
+              color: #fff;
+              font-size: 0.16rem;
+              align-self: center;
+              padding-left: 0.1rem; }
+  .nav .center1 {
+    width: 100%;
+    height: 1.19rem;
+    border-bottom: 0.03rem dotted #999; }
+    .nav .center1 .last {
+      width: 6.91rem;
+      height: 1.22rem;
+      float: left; }
+      .nav .center1 .last .left {
+        width: 1rem;
+        height: 100%;
+        float: left; }
+        .nav .center1 .last .left .tu {
+          width: 0.8rem;
+          height: 0.8rem;
+          background: url("../img/ru.png");
+          background-size: cover;
+          margin-top: 0.16rem; }
+      .nav .center1 .last .right {
+        width: 5.57rem;
+        height: 100%;
+        float: left; }
+        .nav .center1 .last .right .topp {
+          width: 100%;
+          height: 0.5rem;
+          float: left;
+          display: flex; }
+          .nav .center1 .last .right .topp h1 {
+            align-self: center;
+            color: #151c2b;
+            font-size: 0.24rem;
+            margin-top: 0.2rem;
+            line-height: 0.3rem;
+            padding-bottom: 0.1rem; }
+        .nav .center1 .last .right .min {
+          width: 100%;
+          height: 0.34rem;
+          float: left;
+          display: flex; }
+          .nav .center1 .last .right .min span {
+            align-self: center;
+            color: #505050;
+            font-size: 0.18rem; }
+        .nav .center1 .last .right .bot {
+          width: 5.2rem;
+          height: 0.35rem;
+          float: left;
+          display: flex; }
+          .nav .center1 .last .right .bot .b_l {
+            align-self: center;
+            width: 2.6rem;
+            height: 0.55rem;
+            float: left;
+            display: flex; }
+            .nav .center1 .last .right .bot .b_l img {
+              align-self: center;
+              width: 0.17rem;
+              height: 0.16rem; }
+            .nav .center1 .last .right .bot .b_l span {
+              color: #999;
+              font-size: 0.16rem;
+              align-self: center;
+              padding-left: 0.1rem; }
+          .nav .center1 .last .right .bot .b_r {
+            align-self: center;
+            width: 2.6rem;
+            height: 0.55rem;
+            float: right;
+            display: flex;
+            justify-content: flex-end; }
+            .nav .center1 .last .right .bot .b_r img {
+              align-self: center;
+              width: 0.25rem;
+              height: 0.14rem; }
+            .nav .center1 .last .right .bot .b_r span {
+              color: #999;
+              font-size: 0.16rem;
+              align-self: center;
+              padding-left: 0.1rem; }
