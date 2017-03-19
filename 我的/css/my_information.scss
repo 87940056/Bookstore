@@ -1,0 +1,127 @@
+.header{
+  .grzx{
+    .left{
+      background-image: url("../img/29.png");
+      background-size: 0.1rem 0.17rem;
+    }
+  }
+}
+.qh{
+  width:5.73rem;
+  height:0.85rem;
+  background: #2A3441;
+  border-radius: 0.4rem;
+  margin: 0.16rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left{
+    width:2.41rem;
+    height:0.7rem;
+    background: #29A6DC;
+    border-radius: 0.4rem;
+    border: 2px solid #fff;
+    margin-left: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+      color: #fff;
+      font-size: 0.24rem;
+    }
+    i{
+      display: block;
+      width:1.39rem;
+      height:0.1rem;
+      background-image: url("../img/31.png");
+      background-size: contain;
+    }
+  }
+  .right{
+    background: none;
+    border: none;
+    p{
+      color: #fff;
+      font-size: 0.24rem;
+    }
+    i{
+      display: block;
+      width:1.39rem;
+      height:0.1rem;
+      background-image: url("../img/32.png");
+      background-size: contain;
+    }
+  }
+  i{
+    width:0.03rem;
+    height:0.59rem;
+    background-image: url("../img/30.png");
+    background-size: contain;
+  }
+}
+.list{
+  margin: 0.1rem auto;
+  height:6.2rem;
+  li{
+    height:0.88rem;
+    flex: none;
+  }
+  li:nth-child(1){
+    .left{
+      .logo{
+        background-image: url("../img/34.png");
+      }
+      .bbsm{
+        span{
+          width: 1.9rem;
+          height: 0.14rem;
+          background-image: url("../img/33.png");
+        }
+      }
+    }
+  }
+  li:nth-child(2){
+    .left{
+      .logo{
+        background-image: url("../img/34.png");
+      }
+       .bbsm{
+        span{
+          width: 1.9rem;
+          height: 0.14rem;
+          background-image: url("../img/33.png");
+        }
+      }
+    }
+  }
+  li:nth-child(3){
+    .left{
+      .logo{
+        background-image: url("../img/34.png");
+      }
+       .bbsm{
+        span{
+          width: 1.9rem;
+          height: 0.14rem;
+          background-image: url("../img/33.png");
+        }
+      }
+    }
+  }
+  li:nth-child(4){
+    border-bottom:1px dashed #959595;
+      .left{
+        .logo{
+          background-image: url("../img/34.png");
+        }
+         .bbsm{
+        span{
+          width: 1.9rem;
+          height: 0.14rem;
+          background-image: url("../img/33.png");
+        }
+      }
+      }
+  }
+}
