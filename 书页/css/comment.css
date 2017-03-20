@@ -71,89 +71,35 @@ body {
 .nav {
   width: 100%;
   height: 100%; }
-  .nav .center {
+  .nav .top {
     width: 100%;
-    height: 1.22rem; }
-    .nav .center .last {
-      width: 6.91rem;
-      height: 1.22rem;
-      float: left; }
-      .nav .center .last .left {
-        width: 1rem;
-        height: 100%;
-        float: left; }
-        .nav .center .last .left .tu {
-          width: 0.8rem;
-          height: 0.8rem;
-          background: url("../img/ru.png");
-          background-size: cover;
-          margin-top: 0.16rem; }
-      .nav .center .last .right {
-        width: 5.57rem;
-        height: 100%;
-        float: left; }
-        .nav .center .last .right .topp {
-          width: 100%;
-          height: 0.5rem;
-          float: left;
-          display: flex; }
-          .nav .center .last .right .topp h1 {
-            align-self: center;
-            color: #151c2b;
-            font-size: 0.24rem;
-            margin-top: 0.2rem;
-            line-height: 0.3rem;
-            padding-bottom: 0.1rem; }
-        .nav .center .last .right .min {
-          width: 100%;
-          height: 0.4rem;
-          float: left;
-          display: flex; }
-          .nav .center .last .right .min span {
-            align-self: center;
-            color: #505050;
-            font-size: 0.18rem; }
-        .nav .center .last .right .bot {
-          width: 5.2rem;
-          height: 0.4rem;
-          float: left;
-          display: flex; }
-          .nav .center .last .right .bot .b_l {
-            align-self: center;
-            width: 2.6rem;
-            height: 0.55rem;
-            float: left;
-            display: flex; }
-            .nav .center .last .right .bot .b_l img {
-              align-self: center;
-              width: 0.17rem;
-              height: 0.16rem; }
-            .nav .center .last .right .bot .b_l span {
-              color: #999;
-              font-size: 0.16rem;
-              align-self: center;
-              padding-left: 0.1rem; }
-          .nav .center .last .right .bot .b_r {
-            align-self: center;
-            width: 2.6rem;
-            height: 0.55rem;
-            float: right;
-            display: flex;
-            justify-content: flex-end; }
-            .nav .center .last .right .bot .b_r img {
-              align-self: center;
-              width: 0.25rem;
-              height: 0.14rem; }
-            .nav .center .last .right .bot .b_r span {
-              color: #999;
-              font-size: 0.16rem;
-              align-self: center;
-              padding-left: 0.1rem; }
+    height: 1.29rem;
+    display: flex;
+    justify-content: center; }
+    .nav .top .bjs {
+      width: 94%;
+      height: 100%;
+      display: flex; }
+      .nav .top .bjs .top {
+        height: 1.29rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: url("../img/ru.png") left center/0.6rem 0.6rem no-repeat; }
+        .nav .top .bjs .top .p1 {
+          margin: 0.05rem 0;
+          padding-left: 0.8rem;
+          font-size: 0.3rem; }
+        .nav .top .bjs .top .p2 {
+          padding-left: 0.8rem;
+          font-size: 0.2rem; }
   .nav .center1 {
     width: 100%;
     height: 1.19rem;
     border-bottom: 0.03rem dotted #999; }
     .nav .center1 .last {
+      padding-left: 0.5rem;
       width: 6.91rem;
       height: 1.22rem;
       float: left; }
@@ -275,7 +221,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background: url("../img/pens.png") left center/0.8rem 0.8rem no-repeat; }
+      background: url("../img/pens.png") left center/0.6rem 0.6rem no-repeat; }
       .bj .bjs .top .p1 {
         margin: 0.05rem 0;
         padding-left: 0.8rem;
