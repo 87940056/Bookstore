@@ -63,7 +63,9 @@ body {
       font-weight: normal; }
     .head .itemBox .word .division {
       width: 34px;
+      height: 0.03rem;
       margin: 0.03rem auto;
+      background: url(../img/one/division_.png) no-repeat center/auto 100%;
       display: flex;
       align-items: center; }
       .head .itemBox .word .division .point {

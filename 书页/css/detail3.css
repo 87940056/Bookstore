@@ -331,8 +331,9 @@ body {
           padding-left: 0.8rem;
           font-size: 0.2rem; }
       .content .center .mark .add {
-        width: 100%;
+        width: 99%;
         height: 0.85rem;
+        margin: 0 auto;
         box-shadow: 0 0 10px #666;
         display: flex;
         justify-content: center;
@@ -349,11 +350,11 @@ body {
       float: left;
       width: 100%;
       height: 4.78rem;
+      margin-top: 0.4rem;
       padding: 0 0.25rem;
       box-sizing: border-box; }
       .content .center .release .theme {
-        height: 0.6rem;
-        margin-left: 0.14rem; }
+        height: 0.6rem; }
         .content .center .release .theme .img {
           float: left;
           width: 0.55rem;
