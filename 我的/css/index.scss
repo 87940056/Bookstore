@@ -168,7 +168,8 @@ body{
         font-size: 0.28rem;
         color: #787878;
       }
-      a{
+      i{
+        display: block;
         width:0.09rem;
         height:0.17rem;
         background-image: url("../img/8.png");
@@ -195,7 +196,10 @@ body{
         align-items: center;
         cursor: pointer;
         a{
-          margin-left: 0.4rem;
+          width: 0.09rem;
+          height: 0.17rem;
+          background-image: url(../img/8.png);
+          background-size: cover;
         }
       }
     }

@@ -1,10 +1,7 @@
+@import "../css/mixin";
 @import url("../css/base.css");
-html{
-	font-size:100px;
-}
 body{
 	box-sizing: border-box;
-	height: 13.37rem;
 	background: #F2F2F2;
 }
 a{
