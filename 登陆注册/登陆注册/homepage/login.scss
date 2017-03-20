@@ -1,0 +1,179 @@
+@import "../css/mixin";
+@import url("../css/base.css");
+body{
+	box-sizing: border-box;
+	background: #F2F2F2;
+}
+a{
+	color:#999;
+}
+.header{
+	width: 100%;
+	/*height: 4.77rem;*/
+	background: #29A6DC;
+	.top{
+		width: 94%;
+		height: 0.49rem;
+		margin: 0 auto;
+	}
+	.logoin{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 94%;
+		height: 0.88rem;
+		margin: 0 auto;
+		p{
+			text-align: center;
+			line-height: 0.45rem;
+			font-size: 0.28rem;
+			width: 0.45rem;
+			height: 0.45rem;
+			background: #f2f2f2;
+			border-radius: 50%;
+		}
+		h1{
+			color:#f2f2f2;
+			font-size: 0.36rem;
+		}
+		.null{
+			opacity: 0;
+		}
+	}
+	.logo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 94%;
+		height: 3.4rem;
+		margin: 0 auto;
+		span{
+			font-size: 42px;
+			color: #F2F2F2;
+		}	
+	}
+}
+.matter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #0a196b;
+	width: 100%;
+	height: 3.09rem;
+	/*background: pink;*/
+	font-size: 0.22rem;
+	p{
+		line-height: 1.5;
+	}
+	p:nth-child(2){
+		text-align: right;
+	}
+}
+/*input*/
+.main{
+	width: 81.8%;
+	height: 2.14rem;
+	margin: 0 auto;
+	form{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-flow: column; 
+		justify-content:space-between;
+		.input_box{
+		width: 100%;
+		height: 0.88rem;
+		display: flex;
+		align-items: flex-start;
+		position: relative;
+		.i{
+			width: 0.5rem;
+			height: 0.5rem;
+			background: #fff;
+			border-radius: 50%;
+			position: absolute;
+			top:50%;
+			left:5%;
+			margin-top: -0.25rem;
+		}
+		.i_one{
+			background: url("../img/login01.png") no-repeat center center;
+		}
+		.i_two{
+			background: url("../img/login02.png") no-repeat center center;
+		}
+		input{
+			width: 100%;
+			height: 0.88rem;
+			background: #fff;
+			border:1px solid #3abffd;
+			border-radius: 0.5rem;
+			text-align: center;
+			outline: none;
+			font-size: 0.28rem;
+			}
+		}
+	}
+}
+.ret{
+	width: 76%;
+	height: 1.57rem;
+	margin: 0 auto;
+	.skip{
+		display: flex;
+		justify-content: space-between;
+		padding-top:0.35rem; 
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		font-size: 0.22rem;
+		.skip_box{
+			display: flex;
+			justify-content: space-between;
+			width: 1.3rem;
+			height: auto;
+			line-height: 0.22rem;
+			.bgimg{
+				width: 0.22rem;
+				height: 0.22rem;
+				background: #fff;
+				border-radius: 50%;
+			}
+			.bgimg_l{
+				background: url("../img/login04.png") no-repeat center center; 
+			}
+			.bgimg_r{
+				background: url("../img/login03.png") no-repeat center center; 
+			}
+		}
+	}
+}
+.refer{
+	width: 75.2%;
+	height: 0.68rem;
+	background:#3abffd;
+    border-radius: 0.5rem;
+	margin: 0 auto;
+	line-height: 0.68rem;
+	a{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		span{
+			display: block;
+			width: 5px;
+			height: 5px;
+			background: red;
+			background: #f2f2f2;
+			border-radius: 50%;
+		}	
+		p{
+			font-size: 0.28rem;
+			color: #f2f2f2;
+		}		
+	}
+}
+.footer{
+	width: 100%;
+	height: 1.12rem;
+}
