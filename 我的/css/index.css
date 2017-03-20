@@ -166,7 +166,8 @@ body {
   .list li .right span {
     font-size: 0.28rem;
     color: #787878; }
-  .list li .right a {
+  .list li .right i {
+    display: block;
     width: 0.09rem;
     height: 0.17rem;
     background-image: url("../img/8.png");
@@ -184,7 +185,10 @@ body {
     align-items: center;
     cursor: pointer; }
     .list li:nth-child(2) .right .bbxx_btn a {
-      margin-left: 0.4rem; }
+      width: 0.09rem;
+      height: 0.17rem;
+      background-image: url(../img/8.png);
+      background-size: cover; }
   .list li:nth-child(3) .left .logo {
     background-image: url("../img/12.png"); }
   .list li:nth-child(3) .left span {
