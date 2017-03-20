@@ -1,0 +1,32 @@
+.header .grzx .left {
+  background-image: url("../img/29.png");
+  background-size: 0.1rem 0.17rem; }
+
+.Version_information_content {
+  width: 7.28rem;
+  height: 8.08rem;
+  background-image: url("../img/44.png");
+  background-size: contain;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+  .Version_information_content .title {
+    text-align: center;
+    height: 0.57rem;
+    margin-top: 0.5rem; }
+    .Version_information_content .title i {
+      display: block;
+      width: 1.59rem;
+      height: 0.12rem;
+      background-image: url("../img/45.png");
+      background-size: contain;
+      margin: 0 auto; }
+  .Version_information_content .nr {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.6rem; }
+    .Version_information_content .nr span {
+      margin-top: 0.5rem;
+      font-size: 0.22rem;
+      color: #959595; }
