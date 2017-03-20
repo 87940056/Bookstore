@@ -113,11 +113,14 @@ a {
         left: 5%;
         margin-top: -0.25rem; }
       .menu form .input_box .i_one {
-        background: url("../img/login01.png") no-repeat center center; }
+        background: url("../img/login01.png") no-repeat center center;
+        background-size: 0.44rem 0.44rem; }
       .menu form .input_box .i_two {
-        background: url("../img/login02.png") no-repeat center center; }
+        background: url("../img/login02.png") no-repeat center center;
+        background-size: 0.44rem 0.44rem; }
       .menu form .input_box .i_three {
-        background: url("../img/login05.png") no-repeat center center; }
+        background: url("../img/login05.png") no-repeat center center;
+        background-size: 0.44rem 0.44rem; }
       .menu form .input_box input {
         margin: 0 auto;
         width: 6.14rem;

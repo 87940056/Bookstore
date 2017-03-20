@@ -109,9 +109,11 @@ a {
         left: 5%;
         margin-top: -0.25rem; }
       .main form .input_box .i_one {
-        background: url("../img/login01.png") no-repeat center center; }
+        background: url("../img/login01.png") no-repeat center center;
+        background-size: 0.44rem 0.44rem; }
       .main form .input_box .i_two {
-        background: url("../img/login02.png") no-repeat center center; }
+        background: url("../img/login02.png") no-repeat center center;
+        background-size: 0.44rem 0.44rem; }
       .main form .input_box input {
         width: 100%;
         height: 0.88rem;
@@ -146,9 +148,11 @@ a {
         background: #fff;
         border-radius: 50%; }
       .ret .skip .skip_box .bgimg_l {
-        background: url("../img/login04.png") no-repeat center center; }
+        background: url("../img/login04.png") no-repeat center center;
+        background-size: 0.25rem 0.25rem; }
       .ret .skip .skip_box .bgimg_r {
-        background: url("../img/login03.png") no-repeat center center; }
+        background: url("../img/login03.png") no-repeat center center;
+        background-size: 0.25rem 0.25rem; }
 
 .refer {
   width: 75.2%;
